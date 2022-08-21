@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paradise Tour</title>
+	<!-- bootstrap css1 js1 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+	<!-- font awesome css 1 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- favicon -->
+	<link href="./assets/image/logo.png" rel="icon" type="image/png" sizes="16x16" >
+	<!-- custom css -->
+	<link href="./style1.css" rel="stylesheet" type="text/css">
+
+
+	<!-- light box css1 js 1 -->
+	<link href="./assets/libs/css/lightbox.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- jquery ui -->
+	
+	<link rel="stylesheet" type="text/css" href="./assets/libs/jquery-ui-1.13.2/jquery-ui.css" >
+
+</head>
+<body>
+
+	
+	<!-- Start Header Section -->
+	
+
+	<header>
+		<!-- Start navbar Section -->
+		<nav class="navbar navbar-expand-md fixed-top">
+			
+			<a href="index1.html" class="navbar-brand mx-4 nav1">
+				<img src="./assets/image/logo.png" width="100px" alt="logo" >
+				<span class="text-uppercase fw-bold h2 text-white spl">Paradise Tour</span>
+			</a>
+
+			<button type="button" class="navbar-toggler navtog" data-bs-toggle="collapse" data-bs-target="#nav">
+				<!-- <span class="navbar-toggler-icon  buttontog"></span> -->
+				<i class="fas fa-bars buttontog"></i>
+			</button>
+
+			<div id="nav" class="navbar-collapse collapse justify-content-center text-uppercase fw-bold text-light" >
+				<ul class="navbar-nav ms-auto mt-3">
+					<li class="nav-item mmu "><a href="#" class="acc nav-link mx-4  menus">Home</a></li>
+					<li class="nav-item"><a href="#ticket" class="nav-link mx-4  menus">Ticket</a></li>
+					<li class="nav-item"><a href="#properties" class="nav-link mx-4  menus">Properties</a></li>
+					<li class="nav-item"><a href="#hotels" class="nav-link mx-4  menus">Hotels</a></li>
+					<li class="nav-item"><a href="#contact" class="nav-link mx-4  menus mb-4">Contact</a></li>
+				</ul>
+				<button class="btn btn-warning  btn-md mx-2">Book Now</button>
+			</div>
+		</nav>
+		<!-- End navbar Section -->
+
+		<!-- Start Banner Section -->
+        
+        <div class="text-light banners text-center text-md-end">
+        	<h2 class="display-2 fromtop">Welcome to <span class="fw-bold pi"> Paradise Island </span>Travel & Tour</h2>
+        		<h3 class="display-4 tu frombot">Travel with us</h3>
+        </div>
+		<!-- End Banner Section -->
+	</header>	
+	<!-- End Header Section -->
+
+	<!-- Start Transportation Section -->
+
+	<section id="ticket" class="py-5">
+		<div class="container">
+            
+            <div class="row text-center">
+            	<div class="col">
+					<span class="tict">Available Tickets</span>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 col-sm-10">
+					<div class="car text-center">
+						<i class="fas fa-bus fa-2x mb-3"></i>
+						<h3 class="mb-3">Bus Tickets</h3>
+						<p>You can choose the destination you want to go and book the bus ticket here.<br/><br/><span class="fw-bold"><span style="letter-spacing: 2px;">.....</span> Have a pleasant and happy trip <span style="letter-spacing: 2px;">.....</span></span> </p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-10">
+					<div class="flight text-center">
+						<i class="fas fa-plane fa-2x mb-3 ti1"></i>
+						<h3 class="mb-3">Flight Tickets</h3>
+						<p>You can choose the destination you want to go and book the Flight ticket here.<br/><br/><span class="fw-bold"><span style="letter-spacing: 2px;">.....</span> Have a pleasant and happy trip <span style="letter-spacing: 2px;">.....</span></span> </p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-10">
+					<div class="boat text-center">
+						<i class="fas fa-ship fa-2x mb-3 ti1"></i>
+						<h3 class="mb-3">Cruise Tickets</h3>
+						<p>You can choose the destination you want to go and book the Cruise ticket here.<br/><br/><span class="fw-bold"><span style="letter-spacing: 2px;">.....</span> Have a pleasant and happy trip <span style="letter-spacing: 2px;">.....</span></span> </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+   <!-- End Transporation Section -->
+
+   <!-- Start Properties Section -->
+
+   <section id="properties" class="py-5">
+   	
+   <div class="container-fluid">
+   	   
+   	  <!--  Start title Section -->
+   
+
+   	 <div class="row text-center">
+            	<div class="col">
+					<span class="tict">PROPERTIES</span>
+				</div>
+			</div>
+
+   	<!-- End title Section -->
+
+   	<ul class="list-inline text-center fw-bold mt-4">
+   		<li class="list-inline-item propertieslists activeitems" data-filter="all">ALL</li>
+   		<li class="list-inline-item propertieslists" data-filter="local">LOCAL</li>
+   		<li class="list-inline-item propertieslists" data-filter="pagoda">PAGODA</li>
+   		<li class="list-inline-item propertieslists" data-filter="toat">TOURIST ATTRACTION</li>
+   	</ul>
+
+   	<div class="d-flex flex-wrap justify-content-center imgs">
+   		
+   		<div class="filters local"><a href="./assets/image/album/local/burma.jpg" data-lightbox="property" data-title="Local Girls"><img src="./assets/image/album/local/burma.jpg" class="imgg" alt="img1" width="250px" height="160px" /></a></div>
+   		<div class="filters local"><a href="./assets/image/album/local/monks.jpg" data-lightbox="property" data-title="Smiling Monks"><img src="./assets/image/album/local/monks.jpg" class="imgg" alt="img2" width="250px" height="160px"/></a></div>
+   		<div class="filters local"><a href="./assets/image/album/local/padaung.jpg" data-lightbox="property" data-title="Padaung"><img src="./assets/image/album/local/padaung.jpg" class="imgg" alt="img3" width="250px"height="160px" /></a></div>
+   		<div class="filters local"><a href="./assets/image/album/local/thanakar.jpg" data-lightbox="property" data-title="Locals"><img src="./assets/image/album/local/thanakar.jpg" class="imgg" alt="img4" width="250px" height="160px"/></a></div>
+   		<div class="filters local"><a href="./assets/image/album/local/twoladies.jpg" data-lightbox="property" data-title="Mountains"><img src="./assets/image/album/local/twoladies.jpg " class="imgg" alt="img5" width="250px" height="160px" /></a></div>
+   		<div class="filters pagoda"><a href="./assets/image/album/pagoda/bagan.jpg" data-lightbox="property" data-title="Bagan"><img src="./assets/image/album/pagoda/bagan.jpg" class="imgg" alt="img6" width="250px" height="160px"/></a></div>
+   		<div class="filters pagoda"><a href="./assets/image/album/pagoda/kakku.jpg" data-lightbox="property" data-title="Kakku"><img src="./assets/image/album/pagoda/kakku.jpg " class="imgg" alt="img7" width="250px" height="160px"/></a></div>
+   		<div class="filters pagoda"><a href="./assets/image/album/pagoda/mandalay1.jpg" data-lightbox="property" data-title="Mandalay"><img src="./assets/image/album/pagoda/mandalay1.jpg" class="imgg" alt="img8" width="250px" height="160px"/></a></div>
+   		<div class="filters pagoda"><a href="./assets/image/album/pagoda/mon.jpg" data-lightbox="property" data-title="Mon"><img src="./assets/image/album/pagoda/mon.jpg" class="imgg" alt="img9" width="250px" height="160px"/></a></div>
+   		<div class="filters pagoda"><a href="./assets/image/album/pagoda/yagon.jpg" data-lightbox="property" data-title="Yangon"><img src="./assets/image/album/pagoda/yagon.jpg " class="imgg" alt="img10" width="250px" height="160px"/></a></div>
+   		<div class="filters toat"><a href="./assets/image/album/tourist attrection/beach.jpg" data-lightbox="property" data-title="Beach"><img src="./assets/image/album/tourist attrection/beach.jpg" class="imgg" alt="img11" width="250px" height="160px"/></a></div>
+   		<div class="filters toat"><a href="./assets/image/album/tourist attrection/inlay.jpg" data-lightbox="property" data-title="inlay"><img src="./assets/image/album/tourist attrection/inlay.jpg" class="imgg" alt="img12" width="250px" height="160px"/></a></div>
+   		<div class="filters toat"><a href="./assets/image/album/tourist attrection/snokeling.jpg" data-lightbox="property" data-title="myeik"><img src="./assets/image/album/tourist attrection/snokeling.jpg " class="imgg" alt="img13" width="250px" height="160px"/></a></div>
+   		<div class="filters toat"><a href="./assets/image/album/tourist attrection/thin.jpg" data-lightbox="property" data-title="thingan"><img src="./assets/image/album/tourist attrection/thin.jpg" alt="img14" class="imgg" width="250px" height="160px" /></a></div>
+   		<div class="filters toat"><a href="./assets/image/album/tourist attrection/umbrella1.jpg" data-lightbox="property" data-title="umbrella"><img src="./assets/image/album/tourist attrection/umbrella1.jpg" class="imgg" alt="img15" width="250px" height="160px"/></a></div>
+
+   	</div>
+
+   </div>
+
+
+   </section>
+  <!--  End Properties Section -->
+
+ <!-- Start Hotel Section -->
+   <section id="hotels" class="py-3">
+   	<div class="container">
+
+   		<div class="row  text-center">
+   			<div class="col">
+   			<span class="tict mb-5">Best Hotels in Myanmar</span>
+   			<p class="mt-2 ">In accordance with the importance of safety, food and living cleanliness, our Paradise Tour Company has selected and managed the best top luxury hotels in Myanmar for the purpose of allowing you to relax peacefully. You can choose the hotel you like and stay.</p>
+   		</div>
+   	</div>
+
+        <div class="row mx-auto">
+
+        	<div class="col-md-3 col-sm-10 mx-auto mb-4">
+
+        		<div class="card">
+        			<div class="himg">
+        			<img src="./assets/image/hotels/beach.jpg" alt="1" width="100%" height="200vh">
+        		    </div>
+
+        			<div class="card-body">
+        				<div class="card-tile">
+        					<h5 class="text-muted">Ngwesaung Beach Hotel - Sea View</h5>
+        				</div>
+        				<div class="card-subtitle">
+        					<h3 class="text-muted">Private Hotel</h3>
+        					<div class="float-end mbb">
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        					</div>
+        				</div>
+        				<div>
+        					<h3 class="text-info fw-bold"><sup>$</sup> 204 <span class="h5 text-dark">per Night</span></h3>
+        				</div>
+        				<div class="heart">
+        				   <i class="fas fa-heart"></i>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+
+
+        	<div class="col-md-3 col-sm-10 mx-auto mb-4">
+        		<div class="card">
+        			<div class="himg">
+        			<img src="./assets/image/hotels/garden.jpg" alt="2" height="200vh" width="100%">
+        		</div>
+        			<div class="card-body">
+        				<div class="card-tile">
+        					<h5 class="text-muted">Grand Arama Hotel - Garden View</h5>
+        				</div>
+        				<div class="card-subtitle">
+        					<h3 class="text-muted">Apartment</h3>
+        					<div class="float-end mbb">
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        					</div>
+        				</div>
+        				<div>
+        					<h3 class="text-info fw-bold"><sup>$</sup> 50 <span class="h5 text-dark">per Night</span></h3>
+        				</div>
+        				<div class="heart">
+        				   <i class="fas fa-heart"></i>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+
+
+        	<div class="col-md-3 col-sm-10 mx-auto mb-4">
+        		<div class="card">
+        			<div class="himg">
+        			<img src="./assets/image/hotels/sedona.jpg" alt="1" height="200vh" width="100%">
+        		</div>
+        			<div class="card-body">
+        				<div class="card-tile">
+        					<h5 class="text-muted">Yangon Sedona Hotel - City Site View</h5>
+        				</div>
+        				<div class="card-subtitle">
+        					<h3 class="text-muted">Bussiness Hotel</h3>
+        					<div class="float-end mbb">
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        					</div>
+        				</div>
+        				<div>
+        					<h3 class="text-info fw-bold"><sup>$</sup> 103 <span class="h5 text-dark">per Night</span></h3>
+        				</div>
+        				<div class="heart">
+        				   <i class="fas fa-heart"></i>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+
+
+        	<div class="col-md-3 col-sm-10 mx-auto mb-4">
+        		<div class="card">
+        			<div class="himg">
+        			<img src="./assets/image/hotels/kalaw.jpg" alt="1" height="200vh" width="100%">
+        		</div>
+        			<div class="card-body">
+        				<div class="card-tile">
+        					<h5 class="text-muted">Kalaw Hill Hotel - Mountain Site View</h5>
+        				</div>
+        				<div class="card-subtitle">
+        					<h3 class="text-muted">Villa Type</h3>
+        					<div class="float-end mbb">
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        					</div>
+        				</div>
+        				<div>
+        					<h3 class="text-info fw-bold"><sup>$</sup> 204 <span class="h5 text-dark">per Night</span></h3>
+        				</div>
+        				<div class="heart">
+        				   <i class="fas fa-heart"></i>
+        				</div>
+        			</div>
+        		</div>
+
+        	</div>
+
+        		<div class="col-md-3 col-sm-10 mx-auto mb-4">
+        		<div class="card">
+        			<div class="himg">
+        			<img src="./assets/image/hotels/poppa.jpg" alt="1" height="200vh" width="100%">
+        		</div>
+        			<div class="card-body">
+        				<div class="card-tile">
+        					<h5 class="text-muted">Travella Hotel - Mountain Site View</h5>
+        				</div>
+        				<div class="card-subtitle">
+        					<h3 class="text-muted"> Resort Type</h3>
+        					<div class="float-end mbb">
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        					</div>
+        				</div>
+        				<div>
+        					<h3 class="text-info fw-bold"><sup>$</sup> 204 <span class="h5 text-dark">per Night</span></h3>
+        				</div>
+        				<div class="heart">
+        				   <i class="fas fa-heart"></i>
+        				</div>
+        			</div>
+        		</div>
+
+        	</div>
+
+
+	<div class="col-md-3 col-sm-10 mx-auto mb-4">
+        		<div class="card">
+        			<div class="himg">
+        			<img src="./assets/image/hotels/poppa2.jpg" alt="1" height="200vh" width="100%">
+        		</div>
+        			<div class="card-body">
+        				<div class="card-tile">
+        					<h5 class="text-muted">Poppa Hotel - Mountain Site View</h5>
+        				</div>
+        				<div class="card-subtitle">
+        					<h3 class="text-muted">Resort Type</h3>
+        					<div class="float-end mbb">
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        					</div>
+        				</div>
+        				<div>
+        					<h3 class="text-info fw-bold"><sup>$</sup> 104 <span class="h5 text-dark">per Night</span></h3>
+        				</div>
+        				<div class="heart">
+        				   <i class="fas fa-heart"></i>
+        				</div>
+        			</div>
+        		</div>
+
+        	</div>
+
+
+	<div class="col-md-3 col-sm-10 mx-auto mb-4">
+        		<div class="card">
+        			<div class="himg">
+        			<img src="./assets/image/hotels/pyinoolwin.jpg" alt="7" height="200vh" width="100%">
+        		</div>
+        			<div class="card-body">
+        				<div class="card-tile">
+        					<h5 class="text-muted">Pyin Oo Lwin Hotel - City Site View</h5>
+        				</div>
+        				<div class="card-subtitle">
+        					<h3 class="text-muted">Private Type</h3>
+        					<div class="float-end mbb">
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        					</div>
+        				</div>
+        				<div>
+        					<h3 class="text-info fw-bold"><sup>$</sup> 54 <span class="h5 text-dark">per Night</span></h3>
+        				</div>
+        				<div class="heart">
+        				   <i class="fas fa-heart"></i>
+        				</div>
+        			</div>
+        		</div>
+
+        	</div>
+
+        		<div class="col-md-3 col-sm-10 mx-auto mb-4">
+        		<div class="card">
+        			<div class="himg">
+        			<img src="./assets/image/hotels/luxry.jpeg" alt="8" height="200vh" width="100%">
+        		</div>
+        			<div class="card-body">
+        				<div class="card-tile">
+        					<h5 class="text-muted">Great Trader Hotel - Luxry and Bussiness</h5>
+        				</div>
+        				<div class="card-subtitle">
+        					<h3 class="text-muted">Bussiness Type</h3>
+        					<div class="float-end mbb">
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        						<i class="fas fa-star text-warning"></i>
+        					</div>
+        				</div>
+        				<div>
+        					<h3 class="text-info fw-bold"><sup>$</sup> 500 <span class="h5 text-dark">per Night</span></h3>
+        				</div>
+        				<div class="heart">
+        				   <i class="fas fa-heart"></i>
+        				</div>
+        			</div>
+        		</div>
+
+        	</div>
+
+        </div>
+
+   	</div>  	
+
+   </section>
+  
+  <!-- End Hotel Section -->
+
+  <!-- Start City View Section -->
+
+  <section class="py-5"> 
+    <div class="container">
+
+   		<div class="row  text-center">
+   			<div class="col">
+   			<span class="tict mb-5">Cities From Myanmar</span>
+   			<p class="mt-2 lead">These are the most beautiful towns in Myanmar and the best place to visit. You can take a look before you go on a trip.</p>
+   		</div>
+   	</div>
+
+   	<div class="row ">
+
+   		<div class="col-md-2 col-sm-6 mx-auto mb-3 ">
+   			<div class="cardd">
+   				<img src="./assets/image/city view/phaan.jpg" alt="1" height="370vh" width="100%">
+   				<div class="imgtext text-light">
+   					<h4>Phaan Mountain</h4>
+   					<p >Kayin State</p>
+   				</div>
+   				<div class="cithbtn">
+   					<button class=" btn-oo">Click for More <i class="fas fa-car-side"></i></button>
+   				</div>
+   			</div>
+   		</div>
+
+   		<div class="col-md-2 col-sm-6 mx-auto mb-3 ">
+   			<div class="cardd">
+   				<img src="./assets/image/city view/putao.jpg" alt="1" height="370vh" width="100%">
+   				<div class="imgtext text-light">
+   					<h4>Putao Mountain</h4>
+   					<p >Kachin State</p>
+   				</div>
+   				<div class="cithbtn">
+   					<button class=" btn-oo">Click for More <i class="fas fa-car-side"></i></button>
+   				</div>
+   			</div>
+   		</div>
+
+   		<div class="col-md-2 col-sm-6 mx-auto mb-3 ">
+   			<div class="cardd">
+   				<img src="./assets/image/city view/yagon.jpg" alt="1" height="370vh" width="100%">
+   				<div class="imgtext text-light">
+   					<h4>Sule Pagoda</h4>
+   					<p >Yangon State</p>
+   				</div>
+   				<div class="cithbtn">
+   					<button class=" btn-oo">Click for More <i class="fas fa-car-side"></i></button>
+   				</div>
+   			</div>
+   		</div>
+
+   		<div class="col-md-2 col-sm-6 mx-auto mb-3 ">
+   			<div class="cardd">
+   				<img src="./assets/image/city view/kawthaung.jpg" alt="1" height="370vh" width="100%">
+   				<div class="imgtext text-light">
+   					<h4>Kawthaung</h4>
+   					<p >Thainary State</p>
+   				</div>
+   				<div class="cithbtn">
+   					<button class=" btn-oo">Click for More <i class="fas fa-car-side"></i></button>
+   				</div>
+   			</div>
+   		</div>
+
+   		<div class="col-md-2 col-sm-6 mx-auto mb-3 ">
+   			<div class="cardd">
+   				<img src="./assets/image/city view/mandalay.jpg" alt="1" height="370vh" width="100%">
+   				<div class="imgtext text-light">
+   					<h4>U Pain Bridge</h4>
+   					<p >Mandalay State</p>
+   				</div>
+   				<div class="cithbtn">
+   					<button class=" btn-oo">Click for More <i class="fas fa-car-side"></i></button>
+   				</div>
+   			</div>
+   		</div>
+
+   	</div>
+   	</div>	
+
+  </section>
+
+  <!-- End City View Section -->
+
+
+<!-- Start Review Section -->
+
+  <section class="py-4 revis">
+  	 <div class="container">
+
+   		<div class="row  text-center">
+   			<div class="col">
+   			<span class="tict mb-5">Customers Reviews</span>
+   			<p class="mt-2 lead text-light"><span style="letter-spacing:2px;">.....</span> Here you can see our customer's review of our company <span style="letter-spacing:2px;">.....</span> </p>
+   		</div>
+   	</div>
+
+
+   	<div class="row">
+   		<div class="col-md-6 mx-auto">
+   			<div id="customercarousels" class="carousel slide" data-bs-ride="carousel">
+
+   				<ol class="carousel-indicators">
+   					<li data-bs-target="#customercarousels" class="active" data-bs-slide-to="0"></li>
+   					<li data-bs-target="#customercarousels"  data-bs-slide-to="1"></li>
+   					<li data-bs-target="#customercarousels"  data-bs-slide-to="2"></li>
+   				</ol>
+   				
+   				<div class="carousel-inner">
+
+   					<div class="carousel-item text-center active">
+   						<img src="./assets/image/user/user1.jpg" class="rounded-circle py-5" width="150px" height="100%" alt="user1" />
+
+   						<blockquote class="text-dark">
+   							<p class="text-white">
+   								The tour servise is very good and the take good care of the customer. It was a pleasant trip. 
+   							</p>
+   						</blockquote>
+   						<h5 class="text-white text-uppercase fw-bold mb-3">Ms.July</h5>
+   						<ul class="list-inline mb-5">
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   						</ul>
+   					</div>
+   					
+                        
+                         <div class="carousel-item text-center ">
+   						<img src="./assets/image/user/user2.jpg" class="rounded-circle py-5" width="150px" alt="user1" />
+
+   						<blockquote class="text-dark">
+   							<p class="text-white">
+   								The chosen hotel is clean and the food is also meticulously clean. I really like the detailed explanation about the place we visited. It was a nice trip. 
+   							</p>
+   						</blockquote>
+   						<h5 class="text-white text-uppercase fw-bold mb-3">Mr.Kyaw Gyi</h5>
+   						<ul class="list-inline mb-5">
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   						</ul>
+   					</div>
+
+   					 <div class="carousel-item text-center ">
+   						 <img src="./assets/image/user/user3.jpg" class="rounded-circle py-5" width="150px" alt="user1" />
+
+
+   						<blockquote class="text-dark">
+   							<p class="text-white">
+   								Among the trips I've been on, I was happy with this trip I went with Paradise Tour company.The care about customers very musch and the price is resonable.
+   							</p>
+   						</blockquote>
+   						<h5 class="text-white text-uppercase fw-bold mb-3">Ms.Nilar</h5>
+   						<ul class="list-inline mb-5">
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   							<li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+   						</ul>
+   					</div>
+   					   					
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+
+   </div>
+  </section>
+
+
+ <!--  End Review Section --> 
+
+
+<!-- Start Package Section -->
+
+	 <section class="py-5">
+ 	 <div class="container">
+
+ 	<div class="row  text-center">
+   			<div class="col">
+   			<span class="tict mb-5">Our Pricing</span>
+   		</div>
+   	</div>
+      
+
+      <div class="row">
+
+      	<div class="col-md-4 col-sm-10" >
+      		<div class="card1">
+      			<div class="cardhead">
+      				<h3>VIP Package</h3>
+      			</div>
+      			<div class="price">
+      				<h4><sup>$</sup>150</h4>
+      			</div>
+      			<div class="cardbody">
+      				<ul class="cardbody1">
+      					<li>Flight Ticket</li>
+      					<li><strong>5 star hotel</strong></li>
+      					<li>Local foods</li>
+      					<li>Personal Guide</li>
+      					<li>Other chances</li>
+      					<li>Private Allocation</li>
+      					<li><strong>Vip member card</strong></li>
+      				</ul>
+      			</div>
+      	
+      	         <div class="pricingfooter">
+    						<a href="#" class="btn btn-pricings">Booking Now</a>
+    					</div>
+      		</div>
+      		
+      	</div>
+
+      	<div class="col-md-4 col-sm-10" >
+      		<div class="card1">
+      			<div class="cardhead">
+      				<h3>Normal Package</h3>
+      			</div>
+      			<div class="price">
+      				<h4><sup>$</sup>100</h4>
+      			</div>
+      			<div class="cardbody">
+      				<ul class="cardbody1">
+      					<li>Car Ticket</li>
+      					<li><strong>3 star hotel</strong></li>
+      					<li>Local foods</li>
+      					<li>General Guide</li>
+      					<li>Other chances</li>
+      					<li>Private Allocation</li>
+      					<li><strong>Member card</strong></li>
+      				</ul>
+      			</div>
+      	
+      	         <div class="pricingfooter">
+    						<a href="#" class="btn btn-pricings">Booking Now</a>
+    					</div>
+      		</div>
+      		
+      	</div>
+
+      	<div class="col-md-4 col-sm-10" >
+      		<div class="card1">
+      			<div class="cardhead">
+      				<h3>Budget Package</h3>
+      			</div>
+      			<div class="price">
+      				<h4><sup>$</sup>50</h4>
+      			</div>
+      			<div class="cardbody">
+      				<ul class="cardbody1">
+      					<li>Car Ticket</li>
+      					<li><strong>Hotel</strong></li>
+      					<li>Local foods</li>
+      					<li>General Guide</li>
+      					<li>Other chances</li>
+      					<li>Private Allocation</li>
+      					<li><strong>Member card</strong></li>
+      				</ul>
+      			</div>
+      	
+      	         <div class="pricingfooter">
+    						<a href="#" class="btn btn-pricings">Booking Now</a>
+    					</div>
+      		</div>
+      		
+      	</div>
+      </div>
+
+ 	</div>
+ </section>
+<!-- End Package Section -->
+
+<!-- Start contact section -->
+
+
+	<section id="contact" class="py-5 px-5 contacts">
+ 	<div class="container-fluid">
+ 		
+ 	<div class="row  text-center">
+   			<div class="col">
+   			<span class="tict mb-5">Contact Us</span>
+   			<p class="lead mt-3 text-light">We are ready to help you please just drop a message us.</p>
+   		</div>
+   	</div>
+
+   	<div class="col-md-5">
+   		<h3 class="text-white display-4 mb-4">Drop your Message</h3>
+
+   		<form action="" method="">
+   			
+   			<div class="form-group">
+   				<input type="text" name="name" id="name" class="form-control inputs mb-4 inputs" placeholder="Enter Your Name" autocomplete="off">
+   			</div>
+
+   			<div class="form-group">
+   				<input type="email" name="email" id="email" class="form-control inputs mb-4 inputs" placeholder="Enter Your Email" autocomplete="off">
+   			</div>
+
+   			<div class="form-check from-switch mb-3">
+   				<input type="checkbox" name="accept" id="accept" class="form-check-list">
+   				<label for="accept" class="text-white">I agree to the terms of privacy and policy.</label>
+   			</div>
+
+   			<div class="d-grid mb-3 inp">
+   				<button type="submit" class="btn text-uppercase rounded-0 fw-bold submit-btn">Subscribe</button>
+   			</div>
+   		</form>
+   	</div>
+
+ 	</div>
+
+ </section>
+<!-- end contact Section -->
+
+
+<!--  Start Footer Section -->
+
+<footer class="py-4 bg-dark px-5">
+	 
+	 <div class="container-fluid">
+	 	<div class="row text-light">
+	 		
+	 		<div class="col-md-3 col-sm-6 mb-3">
+	 			<h5><img src="./assets/image/logo.png" width="70px" />Paradise Travel & Tour</h5>
+	 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummyLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy</p>
+	 		</div>
+
+	 		<div class="col-md-3 col-sm-6 mb-3 text-center">
+	 			<h5>Viist Us</h5>
+	 			<ul class="list-unstyled">
+	 				<li><a href="#" class="footerlink">Home</a></li>
+	 				<li><a href="#ticket" class="footerlink">Ticket</a></li>
+                         <li><a href="#properties" class="footerlink">Properties</a></li>
+                         <li><a href="#hotels" class="footerlink">Hotels</a></li>
+                         <li><a href="#contact" class="footerlink">Contact</a></li>
+
+
+	 			</ul>
+	 		</div>
+
+	 		<div class="col-md-3 col-sm-6 footercontact">
+	 			<h5>Contact Us</h5>
+	 			<ul class="list-unstyled">
+	 				<li>l-20(B)17 Street of Bayinnaung Street,Thingangyun Township,Yangon</li>
+	 				<li>Phone : +95 9 123 456 789 / +95 987 654 321</li>
+	 			</ul>
+	 		</div>
+
+	 		<div class="col-md-3 col-sm-6 text-center">
+	 			<h5>Need Help?</h5>
+	 			<ul class="list-unstyled">
+	 				<li><a href="#" class="text-uppercase footerlink">Customer Service</a></li>
+	 				<li><a href="#" class="text-uppercase footerlink">Chat with us</a></li>
+	 				<li><a href="#" class="text-uppercase footerlink">Support</a></li>
+	 				<li><a href="#" class="text-uppercase footerlink">Admin@gmail.com</a></li>
+	 			</ul>
+	 		</div>
+
+	 		<div class="text-light border-top pt-5 text-center">
+	 			<p> &copy; <span id="getyear"></span> Copy right , All right Reserved with RF team.</p>
+                    
+	 			<ul class="list-unstyled d-flex icons justify-content-center">
+	 				<li class="ms-3"><a href="#" class="nav-link"><i class="fab fa-facebook i1"></i></a></li>
+	 				<li class="ms-3"><a href="#" class="nav-link"><i class="fab fa-twitter i2"></i></a></li>
+	 				<li class="ms-3"><a href="#" class="nav-link"><i class="fab fa-instagram i3"></i></a></li>
+	 			</ul>
+	 		</div>
+	 		
+	 	</div>
+	 </div>
+
+</footer>
+
+
+
+ <!-- End Footer Section -->
+
+ <!-- Top Sign  -->
+
+ <div class="fixed-bottom">
+ 	<a href="#" class="btn-backtops"><i class="fas fa-arrow-up"></i></a>
+ </div>
+	
+	
+     <!-- bootstrap css1 js1 -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+     <!-- jquery js 1 -->
+    <script src="./assets/libs/jquary-3.6.0.min.js" type="text/javascript"></script>
+    <!-- custom js -->
+	<script src="./app1.js" type="text/javascript"></script>
+
+	< <!-- lightbox css1 js 1 -->
+    <script src="./assets/libs/js/lightbox.min.js" type="text/javascript"></script>
+
+    <!-- jquery ui  -->
+     <script src="./assets/libs/jquery-ui-1.13.2/jquery-ui.min.js" type="text/javascript"></script>
+
+
+</body>
+</html>
